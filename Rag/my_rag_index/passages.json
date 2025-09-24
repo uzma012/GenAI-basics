@@ -1,0 +1,32 @@
+[
+  {
+    "id": "doc1_chunk_0",
+    "text": "Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think, reason, and learn. AI includes various subfields such as machine learning, natural language processing, computer vision, and robotics. Modern AI applications range from recommendation systems (like Netflix or Amazon), voice assistants (Siri, Alexa), self-driving cars, to large language models such as GPT. Key aspects of AI: - Perception (computer vision, speech recognition) - Reasoning and decision making - Learning from data - Interaction through natural language",
+    "meta": {
+      "source_id": "doc1",
+      "title": "Introduction to Artificial Intelligence",
+      "author": "AI Researcher",
+      "tags": [
+        "AI",
+        "ML",
+        "Intro"
+      ],
+      "source": "AI Textbook"
+    }
+  },
+  {
+    "id": "doc2_chunk_0",
+    "text": "PyTorch is an open-source deep learning framework developed by Facebook's AI Research lab. It provides a flexible platform for building neural networks and supports dynamic computation graphs, making it easy for researchers and practitioners to experiment with models. Key features of PyTorch: - Tensor operations with GPU acceleration - Autograd for automatic differentiation - Torch.nn for building neural networks - Torchvision for computer vision tasks - Strong community and ecosystem support PyTorch is widely used in research as well as production, and forms the basis of many modern AI systems, including models for NLP and computer vision.",
+    "meta": {
+      "source_id": "doc2",
+      "title": "PyTorch Basics",
+      "author": "Deep Learning Engineer",
+      "tags": [
+        "PyTorch",
+        "Deep Learning",
+        "Framework"
+      ],
+      "source": "PyTorch Documentation"
+    }
+  }
+]
