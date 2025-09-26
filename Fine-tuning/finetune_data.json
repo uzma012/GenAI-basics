@@ -1,0 +1,27 @@
+[
+  {
+    "instruction": "Summarize the following text in one sentence.",
+    "input": "Artificial intelligence is a branch of computer science that focuses on building systems capable of performing tasks that require human intelligence, such as reasoning, learning, and problem solving.",
+    "output": "Artificial intelligence builds systems that mimic human reasoning, learning, and problem solving."
+  },
+  {
+    "instruction": "Explain PyTorch in simple words.",
+    "input": "",
+    "output": "PyTorch is a library that helps you build and train machine learning models. It is especially popular for deep learning because it is flexible and easy to debug."
+  },
+  {
+    "instruction": "Translate this English sentence to French.",
+    "input": "Machine learning is fun.",
+    "output": "L'apprentissage automatique est amusant."
+  },
+  {
+    "instruction": "Classify the sentiment of the text as Positive, Negative, or Neutral.",
+    "input": "I love working with neural networks!",
+    "output": "Positive"
+  },
+  {
+    "instruction": "Write a short Python function that adds two numbers.",
+    "input": "",
+    "output": "def add_numbers(a, b):\n    return a + b"
+  }
+]

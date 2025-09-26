@@ -1,13 +1,10 @@
-from groq import Groq
-import os
-from dotenv import load_dotenv
 
-# Load environment variables from .env file
-load_dotenv()
 
-# Retrieve API key from environment
-key = os.getenv("GROQ_API_KEY")
-client = Groq(api_key=key)
+from llm_client import get_groq_client
+
+client = get_groq_client()
+
+# Now you can use `client` normally
 
 def call_groq(prompt: str, model="llama-3.3-70b-versatile", max_tokens=256, temperature=0.0):
     resp = client.chat.completions.create(
